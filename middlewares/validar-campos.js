@@ -10,8 +10,8 @@ const validarCampos = (req, res = response, next) => {
         });
     }
     next();
-}
+};
 
 module.exports = {
     validarCampos
-}
+};
